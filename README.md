@@ -1,12 +1,79 @@
-# React + Vite
+# 🚀 Firebase Real-Time Chat Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, feature-rich real-time chat application built with React, Firebase, and Tailwind CSS. This application provides seamless messaging with user management, blocking capabilities, and real-time status updates.
 
-Currently, two official plugins are available:
+![Firebase Chat App](https://img.shields.io/badge/React-18.3.1-blue)
+![Firebase](https://img.shields.io/badge/Firebase-11.1.0-orange)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3.4.17-38bdf8)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+### 💬 **Real-Time Messaging**
+- Instant message delivery using Firebase Firestore
+- Message read receipts and timestamps
+- Real-time message synchronization across devices
+- Last message preview in user list
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 👥 **User Management**
+- User authentication with Firebase Auth
+- Email/Password sign up and login
+- Custom usernames
+- User profile with initials avatar
+- Random gradient avatars for visual appeal
+
+### 🚫 **Blocking & Privacy**
+- Block/Unblock users
+- Blocked users list with management
+- Prevent messaging from/to blocked users
+- Privacy-focused chat experience
+
+### 🟢 **Online Status**
+- Real-time online/offline status indicators
+- Multi-session support
+- Last active tracking
+- Visual status indicators (green dots)
+
+### 🗑️ **Chat Management**
+- Delete individual messages
+- Delete entire chat conversations
+- Report inappropriate messages
+- Message deletion with tombstone ("This message was deleted")
+
+### 🎨 **Modern UI/UX**
+- Beautiful gradient designs
+- Smooth animations and transitions
+- Responsive mobile-first design
+- Loading states and skeletons
+- Toast notifications for actions
+- Dark mode ready (commented in code)
+
+### 🔒 **Security**
+- Firebase Security Rules implementation
+- User data protection
+- Authenticated requests only
+- Secure message storage
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- **React** (v18.3.1) - UI library
+- **Vite** (v6.0.5) - Build tool & dev server
+- **Tailwind CSS** (v3.4.17) - Styling
+- **React Router** - Navigation
+
+### Backend & Database
+- **Firebase Authentication** - User auth
+- **Firebase Firestore** - Real-time database
+- **Firebase Hosting** (optional) - Deployment
+
+### Development Tools
+- **ESLint** - Code linting
+- **PostCSS** - CSS processing
+- **Autoprefixer** - CSS vendor prefixes
+
+---
+
+## 📁 Project Structure
