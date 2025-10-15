@@ -77,3 +77,21 @@ A modern, feature-rich real-time chat application built with React, Firebase, an
 ---
 
 ## 📁 Project Structure
+
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- **Node.js** (v16 or higher)
+- **npm** or **yarn**
+- **Firebase Account** ([Create one here](https://firebase.google.com/))
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/firebase-chat-app.git
+   cd firebase-chat-app
