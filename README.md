@@ -78,6 +78,34 @@ A modern, feature-rich real-time chat application built with React, Firebase, an
 
 ## 📁 Project Structure
 
+chat-app/
+├── public/
+├── src/
+│ ├── components/
+│ │ ├── auth/
+│ │ │ ├── Login.jsx
+│ │ │ └── SignUp.jsx
+│ │ └── chat/
+│ │ ├── Chat.jsx
+│ │ ├── ChatWindow.jsx
+│ │ ├── ChatHeader.jsx
+│ │ ├── MessageInput.jsx
+│ │ ├── UserList.jsx
+│ │ └── BlockedUsersList.jsx
+│ ├── firebase/
+│ │ └── config.js
+│ ├── hooks/
+│ │ └── useOnlineStatus.js
+│ ├── App.jsx
+│ ├── main.jsx
+│ └── index.css
+├── .gitignore
+├── package.json
+├── vite.config.js
+├── tailwind.config.js
+└── README.md
+
+
 
 ---
 
